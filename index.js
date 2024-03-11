@@ -5,7 +5,7 @@ const cors = require('cors')
 const Person = require('./models/person.js')
 const mongoose = require("mongoose");
 
-// app.use(express.static('dist'))
+app.use(express.static('dist'))
 
 app.use(express.json())
 
